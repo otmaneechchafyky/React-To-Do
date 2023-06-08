@@ -18,11 +18,6 @@ REQUIRED SECTIONS:
 - Show your support
 - Acknowledgements
 - License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
@@ -102,9 +97,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Prerequisites
 
-In order to run this project you need:
-
-Example command:
+In order to run this project you need to run:
 
 ```sh
  npm run start 
@@ -112,9 +105,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-Example commands:
+Clone this repository to your desired folder using these commands:
 
 ```sh
  $ git clone https://github.com/otmaneechchafyky/React-To-Do.git
@@ -123,9 +114,8 @@ Example commands:
 
  ### Install
 
-Install this project with:
+Install this project with by running:
 
-Example command:
 
 ```sh
   cd React-To-Do
@@ -136,10 +126,8 @@ Example command:
 
 To run tests, run the following command:
 
-Example command:
-
 ```sh
-  bin/rails test test/models/article_test.rb
+  npm test [file name]
 ```
 
 ### Deployment
@@ -149,7 +137,8 @@ You can deploy this project using:
 Example:
 
 ```sh
-  - render
+  - Render
+  - Netlify
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
