@@ -1,18 +1,32 @@
 <a name="readme-top"></a>
 
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+-->
+
 <div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="./assets/pf-logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h1><b>Hello visitor, welcome to my Project</b></h1>
+  <h3><b>Welcome to my project</b></h3>
 
-</div>
-
-
-<div align="center">
-  
-  <br/>
-<h1 align="center">To Do app</h1>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -24,14 +38,13 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-  -  [🚀 Description video](#live-video)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -41,10 +54,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To Do app] <a name="about-project"></a>
+# 📖 [To do app] <a name="about-project"></a>
 
-
-**Pokemon Capsone Project** To Do is a React web static app where you can add, delete, submit and edit your tasks. This app will persist your data in the browse..
+**[To do app]** To Do is a React web static app where you can add, delete, submit and edit your tasks. This app will persist your data in the browse.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,108 +65,107 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.w3.org/TR/2011/WD-html5-20110405/">HTML</a></li>
-    <li><a href="https://www.w3.org/Style/CSS/specs.en.html">CSS</a></li>
-    <li><a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/">React.js</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://reactjs.org/">CSS</a></li>
   </ul>
 </details>
+
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
+- **[Adding a new task]**
+- **[Remove done tasks]**
+- **[Editing tasks]** 
 
-- **Clear All selected tasks**
-- **Adding as much tasks as you want** 
-- **Editing the task you want** 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- n/a
+- [Live Demo Link](https://reacttodoapp-7xi1.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps:
-
 ### Prerequisites
 
-In order to run this project you need the following tools:
-- Node.js in your computer
-- IDE(e.g.: Vscode,...)
-- Terminal
+In order to run this project you need to run:
 
+```sh
+ npm run start 
+```
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-Example commands:
+Clone this repository to your desired folder using these commands:
 
 ```sh
-  cd folder-name
-  git clone https://github.com/otmaneechchafyky/React-To-Do.git
+ $ git clone https://github.com/otmaneechchafyky/React-To-Do.git
+ $ cd React-To-Do
 ```
 
-### Install
+ ### Install
+
+Install this project with by running:
+
 
 ```sh
-  cd folder-name
-
-  npm install or npm i
-```
-
-- Run an optimized build for prodction:
-```
-  npm run build
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-```sh
-  npm start
-
+  cd React-To-Do
+  gem install
 ```
 
 ### Run tests
 
-- npm test
+To run tests, run the following command:
+
+```sh
+  npm test [file name]
+```
+
+### Deployment
+
+You can deploy this project using:
+
+Example:
+
+```sh
+  - Render
+  - Netlify
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 
+👤 **Author1**
 
-👤 **Otmane Echchafyky**
-
-
-- GitHub: [@Otmaneechchafyky](https://github.com/otmaneechchafyky/)
-- LinkedIn: [@Otmaneechchafyky](https://www.linkedin.com/in/otmane-echchafyky-125801248/)
+- GitHub: [@otmaneechchafyky](https://github.com/otmaneechchafyky)
 - Twitter: [@EchchafykyO](https://twitter.com/EchchafykyO)
+- LinkedIn: [otmane-echchafyky](https://www.linkedin.com/in/otmane-echchafyky-125801248/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+<!-- ## 🔭 Future Features <a name="future-features"></a>
 
+> Describe 1 - 3 features you will add to the project.
 
+- [ ] **[New Routes]**
+- [ ] **[Animation]**
 
-Future changes:
-
-- **Add another routes**
-- **Add some animation** 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- CONTRIBUTING -->
 
@@ -170,8 +181,7 @@ Feel free to check the [issues page](https://github.com/otmaneechchafyky/React-T
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-Give a ⭐️ if you like this project!
+If you like this project give it a ⭐️ to keep us motivated.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,8 +190,7 @@ Give a ⭐️ if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-- Thanks to Ibas Majeed and all Microverse community.
-
+I would like to thank Microverse community.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,5 +200,6 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](./LICENSE) licensed.
 
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
