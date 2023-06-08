@@ -162,7 +162,7 @@ Future changes:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/otmaneechchafyky/React-To-Do.git/issues).
+Feel free to check the [issues page](https://github.com/otmaneechchafyky/React-To-Do/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
