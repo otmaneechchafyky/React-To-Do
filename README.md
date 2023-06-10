@@ -44,7 +44,7 @@
 # 📖 [To Do app] <a name="about-project"></a>
 
 
-**Pokemon Capsone Project** To Do is a React web static app where you can add, delete, submit and edit your tasks. This app will persist your data in the browse..
+**To Do app** To Do is a React web static app where you can add, submit, delete and edit your tasks. This app will persist your data in the browse..
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,7 +53,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.w3.org/TR/2011/WD-html5-20110405/">HTML</a></li>
+    <li><a href="https://www.w3.org/TR/2011/WD-html5-20110405/">HTML5</a></li>
     <li><a href="https://www.w3.org/Style/CSS/specs.en.html">CSS</a></li>
     <li><a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/">React.js</a></li>
   </ul>
@@ -64,15 +64,16 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **Clear All selected tasks**
-- **Adding as much tasks as you want** 
-- **Editing the task you want** 
+- **Add a new task**
+- **Delete a task** 
+- **Edit a task** 
+- **Clear all selected tasks**
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- n/a
+- [Live Demo Link](https://reacttodoapp-7xi1.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +106,7 @@ Example commands:
 ### Install
 
 ```sh
-  cd folder-name
+  cd React-To-Do
 
   npm install or npm i
 ```
